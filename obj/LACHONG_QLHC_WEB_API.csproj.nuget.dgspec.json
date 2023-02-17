@@ -1,0 +1,436 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_API\\LACHONG_QLHC_WEB_API.csproj": {}
+  },
+  "projects": {
+    "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_API\\LACHONG_QLHC_WEB_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_API\\LACHONG_QLHC_WEB_API.csproj",
+        "projectName": "LACHONG_QLHC_WEB_API",
+        "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_API\\LACHONG_QLHC_WEB_API.csproj",
+        "packagesPath": "C:\\Users\\Ha Tung\\.nuget\\packages\\",
+        "outputPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ha Tung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj": {
+                "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj"
+              },
+              "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj": {
+                "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj"
+              },
+              "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_ImportServices\\LACHONG_QLHC_WEB_ImportServices.csproj": {
+                "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_ImportServices\\LACHONG_QLHC_WEB_ImportServices.csproj"
+              },
+              "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Repository\\LACHONG_QLHC_WEB_Repository.csproj": {
+                "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Repository\\LACHONG_QLHC_WEB_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aspose.Cells": {
+              "target": "Package",
+              "version": "[22.6.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.19.0, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.19.0, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj",
+        "projectName": "LACHONG_QLHC_WEB_Contracts",
+        "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj",
+        "packagesPath": "C:\\Users\\Ha Tung\\.nuget\\packages\\",
+        "outputPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ha Tung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj": {
+                "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj",
+        "projectName": "LACHONG_QLHC_WEB_Entities",
+        "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj",
+        "packagesPath": "C:\\Users\\Ha Tung\\.nuget\\packages\\",
+        "outputPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ha Tung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_ImportServices\\LACHONG_QLHC_WEB_ImportServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_ImportServices\\LACHONG_QLHC_WEB_ImportServices.csproj",
+        "projectName": "LACHONG_QLHC_WEB_ImportServices",
+        "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_ImportServices\\LACHONG_QLHC_WEB_ImportServices.csproj",
+        "packagesPath": "C:\\Users\\Ha Tung\\.nuget\\packages\\",
+        "outputPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_ImportServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ha Tung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj": {
+                "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Repository\\LACHONG_QLHC_WEB_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Repository\\LACHONG_QLHC_WEB_Repository.csproj",
+        "projectName": "LACHONG_QLHC_WEB_Repository",
+        "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Repository\\LACHONG_QLHC_WEB_Repository.csproj",
+        "packagesPath": "C:\\Users\\Ha Tung\\.nuget\\packages\\",
+        "outputPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ha Tung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj": {
+                "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Contracts\\LACHONG_QLHC_WEB_Contracts.csproj"
+              },
+              "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj": {
+                "projectPath": "C:\\LacHong\\HCNS\\CongThongTinNhanSu_API\\LACHONG_QLHC_WEB_Entities\\LACHONG_QLHC_WEB_Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.19.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
